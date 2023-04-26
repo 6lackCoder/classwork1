@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#desktop {
+    display: flex;
+
+    list-style: none;
+}
+
+#desktop li {
+    padding: 0.5rem;
+} 
+
+@media only screen and (max-width: 768px){
+    #desktop{
+        display: none;
+
+    }
+}
+
